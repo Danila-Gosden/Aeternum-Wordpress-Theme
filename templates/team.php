@@ -1,10 +1,5 @@
 
-<!-- 
-    Страница с командой.
-    Она рассказывает о должности и о самих сотрудниках компании.
- -->
-
-
+<!--Page about team-->
 
 <?php
 /*
@@ -12,7 +7,7 @@ Template Name: Team
 */
 ?>
 
-    <?php get_header(); ?>
+<?php get_header(); ?>
 
 
 <main class="team">

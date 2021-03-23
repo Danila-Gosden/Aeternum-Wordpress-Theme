@@ -1,5 +1,5 @@
 <?php 
-
+// Style and script connect
 function strategy_assets() {
     wp_enqueue_style( 'style_css', get_template_directory_uri() . '/assets/styles/style.css');
 
@@ -14,10 +14,9 @@ add_action( 'wp_enqueue_scripts', 'strategy_assets' );
 
 show_admin_bar(false);
 
-
+// Functionality for change content on pages
 function admin_panel_setting($wp_customize)
 {
-    //Home Page Panel
     $wp_customize->add_section(
         'home',
         array(

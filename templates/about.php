@@ -1,10 +1,5 @@
 
-<!-- 
-    Страница о компании. 
-    Находясь на ней пользователь может узнать главное о компании и инвестиционном процессе. 
--->
-
-
+<!--Page about company-->
 
 <?php
 /*
@@ -12,11 +7,7 @@ Template Name: About Aeternum
 */
 ?>
 
-<?php
-
-    get_header();
-
-?>
+<?php get_header(); ?>
     <main class="about">
         <section class="about__capital">
             <div class="about__capital_content">

@@ -1,18 +1,5 @@
-
-<!-- 
-    Главная страница ссайта. 
-    Пользоатель попадает на неё при входе на ссайт. 
-    На этой странице пользователь может в краци узнать о миссии компании и её главных плюсах.
--->
-
-
-
-<?php 
-
-get_header();
-
-?>
-
+<!--Home Page-->
+<?php get_header(); ?>
 
 <main class="home">
     <section class="home__welcome">
@@ -87,11 +74,7 @@ get_header();
 </main>
 
 
-<?php 
-
-get_footer();
-
-?>
+<?php get_footer(); ?>
 
 </body>
 </html>
